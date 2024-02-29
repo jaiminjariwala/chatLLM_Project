@@ -25,7 +25,8 @@ def get_gemini_response(input, image):
 
 # initialize our streamlit app
 st.set_page_config(page_title="Gemini Vision")
-st.header("Gemini Vision Application")
+st.header("Chat Vision")
+st.subheader("Gemini Powered Image to Text Conversational chatbot")
 
 # create a input textbox
 input = st.text_input("Enter Prompt",key="input")
